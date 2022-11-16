@@ -1,0 +1,51 @@
+html {
+    font-family: system,-apple-system,BlinkMacSystemFont,'Segoe UI','Segoe WP',Roboto,Ubuntu,Oxygen,Cantarell,'Fira Sans','Helvetica Neue',Helvetica,'Lucida Grande','Droid Sans',Tahoma,'Microsoft Sans Serif',sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #cb11ab, #481173);
+}
+
+img#wb-go-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.author {
+    color: white;
+    font-size: x-small;
+    width: 150px;
+    text-align: center;
+}
+
+.id-input-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.id-input-div * {
+    margin: 5px;
+}
+
+.id-input-label {
+    color: white;
+}
+
+.order-info-div {
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.order-info-div p {
+    visibility: hidden;
+    padding: 10px;
+    background: linear-gradient(to left, #cb11ac00, #481173);
+}
+
+.order-info-div textarea {
+    visibility: hidden;
+}
